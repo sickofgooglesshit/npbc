@@ -562,3 +562,5 @@ def test_validate_month_and_year():
     assert not validate_month_and_year(12.6, 10)[0]  # type: ignore
     assert not validate_month_and_year(1, '10')[0]  # type: ignore
     assert not validate_month_and_year(12, '10')[0]  # type: ignore
+
+    
